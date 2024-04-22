@@ -12,8 +12,14 @@ This Repository contains the snowflake files used in an ELT automated pipeline f
 - Agile project should be structured and run according to accepted best practice
 
 ## Our Solution:
+
+### Full ELT Pipeline:
+
 ![Image](snowflake_scripts/(6)_resources/images/full_pipeline.png)
 
+### Dimensional Model for Analysis and BI:
+
+![Image](snowflake_scripts/(6)_resources/images/nyc_taxi_dimensional_model.png)
 
 ## Repo Contents:
 ```
