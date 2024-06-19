@@ -1,4 +1,4 @@
-# NYC Taxi - Kubrick Group Training Final Project
+# NYC Taxi - Kubrick Group Data Engineering Training Final Project
 
 ## Overview
 This Repository contains the snowflake files used in an ELT automated pipeline for the Kubrick Group Training Final Project. The project was orchestrated using Azure Data Factory, using snowflake as the data warehouse and azure blob storage for raw data landing. The project workflow followed the data lake medallion structure, with each stage stored in separated schema in the snowflake production database. Raw data is stored in bronze, flattened data in senior bronze, cleaned data in in silver, and the data placed into the dimensional model star schema is stored in gold. 
